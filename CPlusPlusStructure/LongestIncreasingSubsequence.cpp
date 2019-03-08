@@ -3,7 +3,7 @@
 #include "LongestIncreasingSubsequence.h"
 #include "Utils.h"
 
-int LongestIncreasingSubsequenceN(vector<int>& nums)
+int LongestIncreasingSubsequenceNSquare(vector<int>& nums)
 {
 	if (nums.size() < 1) return 0;
 	int ret = 1;
@@ -24,7 +24,7 @@ int LongestIncreasingSubsequenceN(vector<int>& nums)
 	return ret;
 }
 
-void LongestIncreasingSubsequenceTest()
+void LongestIncreasingSubsequenceNSquareTest()
 {
 	vector<int> testVector;
 	int a[] = { 10,9,2,5,3,7,101,18 };
@@ -32,5 +32,5 @@ void LongestIncreasingSubsequenceTest()
 	{
 		testVector.push_back(a[i]);
 	}
-	printf("max = %d", LongestIncreasingSubsequence(testVector));
+	printf("max = %d", LongestIncreasingSubsequenceNSquare(testVector));
 }

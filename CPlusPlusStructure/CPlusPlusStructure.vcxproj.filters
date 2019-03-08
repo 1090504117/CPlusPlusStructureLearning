@@ -27,6 +27,12 @@
     <ClCompile Include="LongestIncreasingSubsequence.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="JumpGame.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="TriangleMinimumPath.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="MaximumSubarray.h">
@@ -36,6 +42,12 @@
       <Filter>头文件</Filter>
     </ClInclude>
     <ClInclude Include="LongestIncreasingSubsequence.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="JumpGame.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="TriangleMinimumPath.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>

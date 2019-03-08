@@ -2,6 +2,6 @@
 #include <vector>
 using namespace std;
 
-int LongestIncreasingSubsequence(vector<int>& nums);
+int LongestIncreasingSubsequenceNSquare(vector<int>& nums);
 
-void LongestIncreasingSubsequenceTest();
+void LongestIncreasingSubsequenceNSquareTest();

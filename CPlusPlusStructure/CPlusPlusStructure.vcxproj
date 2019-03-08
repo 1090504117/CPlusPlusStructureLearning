@@ -146,14 +146,18 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="JumpGame.cpp" />
     <ClCompile Include="LongestIncreasingSubsequence.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="MaximumSubarray.cpp" />
+    <ClCompile Include="TriangleMinimumPath.cpp" />
     <ClCompile Include="Utils.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="JumpGame.h" />
     <ClInclude Include="LongestIncreasingSubsequence.h" />
     <ClInclude Include="MaximumSubarray.h" />
+    <ClInclude Include="TriangleMinimumPath.h" />
     <ClInclude Include="Utils.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
