@@ -11,6 +11,5 @@ int TriangleMinimumPath(vector<vector<int>>& triangle);
 
 void TriangleMinimumPathTest();
 
-//this is top-bottom solution and similar to a tree
-
+//this is top-down solution
 int TriangleMinimumPath2(vector<vector<int>>& triangle);

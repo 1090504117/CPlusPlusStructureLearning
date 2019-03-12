@@ -1,16 +1,13 @@
-#include <iostream>
 #include "Utils.h"
-#include <algorithm>
+#include "DijkstraMinimumPath.h"
 
-#include "TriangleMinimumPath.h"
-
-int TriangleMinimumPath(vector<vector<int>>& triangle)
+int DijkstraMinimumPath(vector<vector<int>>& triangle)
 {
 	int size = (int)triangle.size();
 	if (size < 1) return 0;
 	if (1 == size) return triangle[0][0];
 	int calNum = 0;
-	int temp,num;
+	int temp, num;
 	vector<int> a;
 	a.push_back(triangle[0][0]);
 	for (int i = 1; i < size; i++)
@@ -21,7 +18,7 @@ int TriangleMinimumPath(vector<vector<int>>& triangle)
 		for (int j = 1; j < i; j++)
 		{
 			num = a[j];
-			calNum = temp < num ? temp + tempVector[j]: num + tempVector[j];
+			calNum = temp < num ? temp + tempVector[j] : num + tempVector[j];
 			temp = num;
 			a[j] = calNum;
 		}
@@ -36,14 +33,14 @@ int TriangleMinimumPath(vector<vector<int>>& triangle)
 	return min;
 }
 
-int TriangleMinimumPath2(vector<vector<int>>& triangle)
+int DijkstraMinimumPath2(vector<vector<int>>& triangle)
 {
 	int size = (int)triangle.size();
 	if (size < 1) return 0;
 	vector<int> a(triangle.back());
 	for (int i = size - 2; i > -1; i--)
 	{
-		for (int j = 0; j <= i; j++)	//´Ë´¦²ã³öÏÖÎÊÌâ j <=i ,Ô­ÏÈ¿ÉÄÜÊÇj < i,¹ÊÑÏ¸ñ×¢Òâ±ß½çÎÊÌâ
+		for (int j = 0; j <= i; j++)	//æ­¤å¤„å±‚å‡ºçŽ°é—®é¢˜ j <=i ,åŽŸå…ˆå¯èƒ½æ˜¯j < i,æ•…ä¸¥æ ¼æ³¨æ„è¾¹ç•Œé—®é¢˜
 		{
 			a[j] = triangle[i][j] + MinInt(a[j + 1], a[j]);
 		}
@@ -51,7 +48,7 @@ int TriangleMinimumPath2(vector<vector<int>>& triangle)
 	return a[0];
 }
 
-void TriangleMinimumPathTest()
+void DijkstraMinimumPathTest()
 {
 	vector<vector<int>> testVector;
 	int a[] =
@@ -70,5 +67,5 @@ void TriangleMinimumPathTest()
 			tmpVector.push_back(a[index++]);
 		testVector.push_back(tmpVector);
 	}
-	printf("min = %d", TriangleMinimumPath2(testVector));
+	printf("min = %d", DijkstraMinimumPath2(testVector));
 }
