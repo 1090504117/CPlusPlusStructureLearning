@@ -33,6 +33,12 @@
     <ClCompile Include="TriangleMinimumPath.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="DijkstraMinimumPath.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="AStar.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="MaximumSubarray.h">
@@ -48,6 +54,15 @@
       <Filter>头文件</Filter>
     </ClInclude>
     <ClInclude Include="TriangleMinimumPath.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="DijkstraMinimumPath.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="AStar.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ClassTest.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>

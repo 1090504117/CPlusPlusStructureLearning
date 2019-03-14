@@ -4,6 +4,7 @@
 #include "LongestIncreasingSubsequence.h"
 #include "JumpGame.h"
 #include "TriangleMinimumPath.h"
+#include "AStar.h"
 
 int main()
 {
@@ -13,7 +14,9 @@ int main()
 
 	//JumpGameCanJumpTest();
 
-	TriangleMinimumPathTest();
+	//TriangleMinimumPathTest();
+
+	AStar::Test();
 
 	system("pause");
 	return 0;
