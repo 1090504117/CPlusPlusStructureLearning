@@ -158,6 +158,7 @@
   <ItemGroup>
     <ClInclude Include="AStar.h" />
     <ClInclude Include="ClassTest.h" />
+    <ClInclude Include="DepthFirstSearch.h" />
     <ClInclude Include="DijkstraMinimumPath.h" />
     <ClInclude Include="JumpGame.h" />
     <ClInclude Include="LongestIncreasingSubsequence.h" />

@@ -65,5 +65,8 @@
     <ClInclude Include="ClassTest.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="DepthFirstSearch.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
