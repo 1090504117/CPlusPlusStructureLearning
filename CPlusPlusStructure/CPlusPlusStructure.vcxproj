@@ -146,12 +146,24 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="AStar.cpp" />
+    <ClCompile Include="DijkstraMinimumPath.cpp" />
+    <ClCompile Include="JumpGame.cpp" />
+    <ClCompile Include="LongestIncreasingSubsequence.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="MaximumSubarray.cpp" />
+    <ClCompile Include="TriangleMinimumPath.cpp" />
     <ClCompile Include="Utils.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Fatal.h" />
-    <ClInclude Include="LinkList.h" />
+    <ClInclude Include="AStar.h" />
+    <ClInclude Include="ClassTest.h" />
+    <ClInclude Include="DepthFirstSearch.h" />
+    <ClInclude Include="DijkstraMinimumPath.h" />
+    <ClInclude Include="JumpGame.h" />
+    <ClInclude Include="LongestIncreasingSubsequence.h" />
+    <ClInclude Include="MaximumSubarray.h" />
+    <ClInclude Include="TriangleMinimumPath.h" />
     <ClInclude Include="Utils.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

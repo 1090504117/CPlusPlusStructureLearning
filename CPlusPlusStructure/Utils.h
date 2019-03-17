@@ -10,5 +10,11 @@ template<typename T> void Swap(T &x, T &y);
 
 void PrintArrayInt(int a[], int n);
 
+#define MinInt(a,b) (a<b?a:b)
+
+void Swap(int *x, int *y);
+
+void PrintArrayInt(int a[], int n);
+
 #endif // !__UTILS_H__
 

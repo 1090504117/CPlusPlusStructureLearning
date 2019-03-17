@@ -18,18 +18,54 @@
     <ClCompile Include="main.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="MaximumSubarray.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
     <ClCompile Include="Utils.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LongestIncreasingSubsequence.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="JumpGame.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="TriangleMinimumPath.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DijkstraMinimumPath.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="AStar.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="MaximumSubarray.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
     <ClInclude Include="Utils.h">
       <Filter>头文件</Filter>
     </ClInclude>
-    <ClInclude Include="LinkList.h">
+    <ClInclude Include="LongestIncreasingSubsequence.h">
       <Filter>头文件</Filter>
     </ClInclude>
-    <ClInclude Include="Fatal.h">
+    <ClInclude Include="JumpGame.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="TriangleMinimumPath.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="DijkstraMinimumPath.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="AStar.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ClassTest.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="DepthFirstSearch.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>
